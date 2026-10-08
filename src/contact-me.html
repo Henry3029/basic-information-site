@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me - Basic Informational Site</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me</h1>
+    <p>Have questions or feedback? Send us a message using the form below!</p>
+
+    <form action="#" method="POST">
+      <div>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <br>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Basic Informational Site. Built with Node.js & Express.</p>
+  </footer>
+</body>
+</html>
