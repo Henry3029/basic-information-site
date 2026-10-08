@@ -1,0 +1,14 @@
+{
+    "name": "basic-information-site",
+      "version": "1.0.0",
+        "type": "module",
+          "scripts": {
+              "start": "node index.js",
+                  "dev": "nodemon index.js"
+                    },
+                      "dependencies": {
+                          "express": "^5.2.1"
+                            }
+                            }
+
+
